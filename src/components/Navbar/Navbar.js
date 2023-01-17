@@ -16,7 +16,7 @@ const Navbar = () => {
             {open ? <XMarkIcon/> : <ArrowSmallUpIcon></ArrowSmallUpIcon>}
         </div>
          <ul className={`md:flex justify-center absolute md:static bg-indigo-200 w-full duration-500 ease-in ${open ? 'top-6': 'top-[-120px]'}`}>
-         {/* <ul className={`md:flex justify-center absolute md:static bg-indigo-200 w-full duration-500 ease-in ${open ? 'top-6': 'top-[-120px]'}`}> */}
+       
            {
             routes.map(route => <Link
             key={route.id}
